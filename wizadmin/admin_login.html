@@ -1,0 +1,90 @@
+<?
+include "../inc/global.inc";
+
+if(!empty($wizadmin_session[shop_id])){
+   
+	$sql = "select * from wiz_shopinfo where shop_id = '$wizadmin_session[shop_id]' and shop_pw = '$wizadmin_session[shop_pw]'";
+	$result = mysql_query($sql) or error("관리자 인증시 에러가 발생하였습니다.");
+	$total = mysql_num_rows($result);
+	
+	if($total > 0){
+		header("location: main/main.php");
+		exit;
+	}
+
+}
+
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>:: 위즈샵 쇼핑몰 관리자 ::</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body leftmargin="0" topmargin="0" bgcolor="#efefef" onLoad="document.frm.shop_id.focus();">
+<table width="100%" height="100%"><tr><td valign="center">
+<table width="558" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <table width="558" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td bgcolor="D4D2D2"><table width="558" border="0" cellspacing="1" cellpadding="0">
+              <tr>
+                <td bgcolor="#FFFFFF"><table width="556" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><a href="http://www.wizshop.net" target="_blank"><img src="image/login/top_01.gif" width="556" height="78" border="0"></a></td>
+                    </tr>
+                  </table>
+                  <table width="556" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><img src="image/login/loing_img01.gif" width="556" height="75"></td>
+                    </tr>
+                  </table>
+                  <table width="556" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="31">&nbsp;</td>
+                      <td width="268" valign="top">
+                        <table width="268" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td height="164" valign="top" background="image/login/login_bg.gif">
+                              <table width="268" height="5" border="0" cellpadding="0" cellspacing="0">
+                                <tr><td></td></tr>
+                              </table>
+                              <table width="243" border="0" align="center" cellpadding="0" cellspacing="0">
+                                <tr>
+                                  <td><img src="image/login/login_img03.gif" width="243" height="49"></td>
+                                </tr>
+                              </table>
+                              <table width="243" border="0" align="center" cellpadding="0" cellspacing="0">
+                              <form name="frm" action="admin_login.php" method="post">
+                                <tr> 
+                                  <td width="84" height="31" align="right"><img src="image/login/login_type_id.gif" width="64" height="15"></td>
+                                  <td width="135" align="center"><input name="shop_id" value="<?=$shop_id?>" type="text" class="form1" size="20"></td>
+                                </tr>
+                                <tr> 
+                                  <td width="84" height="31" align="right"><img src="image/login/login_type_pw.gif" width="64" height="15"></td>
+                                  <td width="135" align="center"><input name="shop_pw" value="<?=$shop_pw?>" type="password" class="form1" size="20"></td>
+                                </tr>
+                                <tr>
+                                  <td height="26" align="right"></td>
+                                  <td align="center"><input type="image" src="image/login/bt_login.gif" border="0"></td>
+                                </tr>
+                              </form>
+                              </table>
+                            </td>
+                          </tr>
+                        </table></td>
+                      <td width="258"><img src="image/login/loing_img02.gif" width="258" height="197"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</td></tr></table>
+</body>
+</html>

@@ -1,0 +1,63 @@
+.font1 {font-family: "±¼¸²"; 
+	font-size: 13px;
+   line-height: 18px;
+	color: #000000;
+}
+.font2 {font-family: "µ¸¿ò";
+	font-size: 11px;
+     line-height: 18px;
+	color: #2e2e2e;
+}
+.font3 {font-family: "µ¸¿ò"; 
+	font-size: 11px;
+	color: fb9604;	
+}
+.font4 {font-family: "µ¸¿ò"; 
+	font-size: 12px;
+   line-height: 20px;
+	color: #2F2E2E;
+}
+.font5 {font-family: "µ¸¿ò"; 
+	font-size: 12px;
+   line-height: 16px;
+	color: #2F2E2E;
+}
+.font6 {font-family: "±¼¸²"; 
+	font-size: 13px;
+   line-height: 16px;
+	color: #3D3D3D;
+}
+
+td {font-family: "±¼¸²"; font-size: 12px; line-height: 15px; color: 2e2e2e; }
+
+a:link {color:#2e2e2e; text-decoration : none;}
+a:visited {color: #2e2e2e; text-decoration : none;}
+a:hover {	color: #114CA3;	text-decoration: none;}
+
+a.1:link {color:#2e2e2e; text-decoration : none;}
+a.1:visited {color: #2e2e2e; text-decoration : none;}
+a.1:hover {	color: #114CA3;	text-decoration: none;}
+
+a.2:link {color:#2e2e2e; text-decoration : none;}
+a.2:visited {color: #2e2e2e; text-decoration : none;}
+a.2:hover {	color: #2E2E2E;	text-decoration: none;}
+
+a.3:link {color:#2e2e2e; text-decoration : none;}
+a.3:visited {color: #2e2e2e; text-decoration : none;}
+a.3:hover {	color: red;	text-decoration: underline;}
+
+.form1 {font-size:12px; font-family: "±¼¸²"; BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #D4D2D2 1px solid; BORDER-LEFT: #D4D2D2 1px solid; BORDER-RIGHT: #D4D2D2 1px solid; BORDER-TOP: #D4D2D2 1px solid; COLOR: #2e2e2e; HEIGHT: 18px;}
+.form2 {font-size:12px; font-family: "±¼¸²"; BACKGROUND-COLOR: #ffffff; COLOR: #505050; HEIGHT: 215px; border: 1px solid #A2A8AB; }
+.form3 {font-size:13px; font-family: "±¼¸²"; BACKGROUND-COLOR: #F3F3F3; BORDER-BOTTOM: #D4D2D2 1px solid; BORDER-LEFT: #D4D2D2 1px solid; BORDER-RIGHT: #D4D2D2 1px solid; BORDER-TOP: #D4D2D2 1px solid; COLOR: #2e2e2e; HEIGHT: 20px;}
+
+.formR {font-size:13px; font-family: "±¼¸²"; BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #D4D2D2 1px solid; BORDER-LEFT: #D4D2D2 1px solid; BORDER-RIGHT: #D4D2D2 1px solid; BORDER-TOP: #D4D2D2 1px solid; COLOR: red; HEIGHT: 20px;}
+.formB {font-size:13px; font-family: "±¼¸²"; BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #D4D2D2 1px solid; BORDER-LEFT: #D4D2D2 1px solid; BORDER-RIGHT: #D4D2D2 1px solid; BORDER-TOP: #D4D2D2 1px solid; COLOR: blue; HEIGHT: 20px;}
+
+
+.textarea {font-size:12px; font-family: "±¼¸²"; BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #D4D2D2 1px solid; BORDER-LEFT: #D4D2D2 1px solid; BORDER-RIGHT: #D4D2D2 1px solid; BORDER-TOP: #D4D2D2 1px solid; COLOR: #2e2e2e;}
+.textarea2 {font-size:12px; font-family: "±¼¸²"; BACKGROUND-COLOR: #F3F3F3; BORDER-BOTTOM: #D4D2D2 1px solid; BORDER-LEFT: #D4D2D2 1px solid; BORDER-RIGHT: #D4D2D2 1px solid; BORDER-TOP: #D4D2D2 1px solid; COLOR: #2e2e2e;}
+
+.t {cursor:hand; font-size:12px; font-family: ±¼¸²; BACKGROUND-COLOR: #659EBE; BORDER-BOTTOM: #5187A6 2px solid; BORDER-LEFT: #5187A6 2px solid; BORDER-RIGHT: #8DC1DE 2px solid; BORDER-TOP: #8DC1DE 2px solid; COLOR: #ffffff;  HEIGHT:21px;}
+
+.xbtn {cursor:hand; font-size:12px; font-family: ±¼¸²; BACKGROUND-COLOR: #7ABE65; BORDER-BOTTOM: #65A651 2px solid; BORDER-LEFT: #65A651 2px solid; BORDER-RIGHT: #A1DE8D 2px solid; BORDER-TOP: #A1DE8D6 2px solid; COLOR: #ffffff; HEIGHT:21px; }
+.gbtn {cursor:hand; font-size:12px; font-family: ±¼¸²; BACKGROUND-COLOR: #e2e2e2; BORDER-BOTTOM: #a5a5a5 2px solid; BORDER-LEFT: #FFFFFF 2px solid; BORDER-RIGHT: #a5a5a5 2px solid; BORDER-TOP: #FFFFFF 2px solid; COLOR: #ffffff; HEIGHT:21px; }

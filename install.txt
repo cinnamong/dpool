@@ -1,0 +1,20 @@
+1. 퍼미션 변경
+chmod 707 -R images
+chmod 707 -R bbs/upfile
+chmod 707 -R connect
+chmod 707 -R prdimg
+chmod 707 -R wiz_style.css
+
+chmod 707 -R skin/header.inc
+chmod 707 -R skin/footer.inc
+chmod 707 -R skin/main.inc
+
+2. 디비 인서트
+mysql -u 유저명 -p유저비밀번호 디비명 < plus/dbdump.sql
+
+3. 관리자 아이디 비번 변경
+mysql -u 유저명 -p유저비밀번호 디비명
+update wiz_shopinfo set shop_id='관리자아이디', shop_pw='관리자비밀번호';
+
+4. 관리자 로그인
+http://설치도메인/wizadmin

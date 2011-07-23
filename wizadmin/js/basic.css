@@ -1,0 +1,13 @@
+body { font-size:9pt;  }
+
+
+table { font-size:9pt; }
+
+input { font-size:9pt; border-style:groove; }
+
+input:checkbox { font-size:9pt; border-style:solid; }
+
+textarea { font-size:9pt; border-style:groove; }
+
+select { font-size:9pt; border-style:groove; }
+

@@ -1,0 +1,132 @@
+td {
+	font-size:12px;
+	font-family:"±¼¸²","µ¸¿ò";
+	color:#4A4A4A;
+	line-height:160%
+} 
+
+
+BODY{
+	background-color: #ffffff;
+	margin-left : 0;
+	margin-top : 0;
+	margin-right : 0;
+	margin-bottom: 0;
+	SCROLLBAR-FACE-COLOR: #CFCFCF;
+	SCROLLBAR-3DLIGHT-COLOR: #CFCFCF;
+	SCROLLBAR-ARROW-COLOR: #ffffff;
+	SCROLLBAR-DARKSHADOW-COLOR: #CFCFCF;
+	SCROLLBAR-BASE-COLOR:#CFCFCF;
+	background-image: url(img/bg.jpg); background-repeat:repeat-x; 
+	}
+table {
+    border-collapse:collapse;
+	}
+
+.price {
+	font-size:12px;
+	font-family:"±¼¸²","µ¸¿ò";
+	color:#FF3334;
+	line-height:160%;
+	font-weight:bolder;
+}
+
+.price_b {
+	font-size:14px;
+	font-family:"±¼¸²","µ¸¿ò";
+	color:#FF4985;
+	line-height:160%;
+	font-weight:bolder;
+}
+
+.s11 {
+	font-size:11px;
+	font-family:"±¼¸²","µ¸¿ò";
+	color:#4A4A4A;
+	line-height:160%;
+}
+
+.p_name {
+	font-size:14px;
+	font-family:"±¼¸²","µ¸¿ò";
+	color:#000000;
+	line-height:160%;
+	font-weight:bolder;
+}
+
+.product_title {
+	font-size:14px;
+	font-family:"±¼¸²","µ¸¿ò";
+	color:#FF6633;
+	line-height:160%;
+	font-weight:bolder;
+}
+
+.category_title {
+	font-size:12px;
+	font-family:"±¼¸²","µ¸¿ò";
+	color:#000000;
+	line-height:160%;
+	font-weight:bolder;
+}
+
+.blue {
+	font-size:12px;
+	font-family:"±¼¸²","µ¸¿ò";
+	color:#0066CC;
+	line-height:160%;
+	font-weight:bolder;
+}
+
+.input {
+	font-size:9pt;
+	font-family:"±¼¸²","µ¸¿ò";
+	color:#545454;
+	border-width:1pt;
+	border-style:solid;
+	background-color:#ffffff;
+	border-color:#cccccc;
+}
+
+textarea,select,input.t1 {
+	font-size:9pt;
+	font-family:"±¼¸²","µ¸¿ò";
+	color:#666666;
+	border-width:1pt;
+	border-style:solid;
+	background-color:#ffffff;
+	border-color:#cccccc;
+
+}
+
+input.none
+{
+		font-size:9pt;
+		font-family:"±¼¸²","µ¸¿ò";
+		color:#545454;
+		border-width:1pt;
+		border-style:solid;
+		background-color:#ffffff;
+		;
+	}
+
+.left_menu {
+	font-size:9pt;
+	font-family:;
+	color:#8B8B8B;
+	line-height:160%
+} 
+
+.line {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #cccccc;
+}
+		
+
+a:link {text-decoration:none;color:#6b6b6b;}
+a:visited {text-decoration:none; color:#6b6b6b;} 
+a:hover {text-decoration:none;color:#009933;} 
