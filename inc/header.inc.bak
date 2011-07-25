@@ -27,7 +27,7 @@ MM_reloadPage(true);
           <td width="950"><table width="950" border="0" cellspacing="0" cellpadding="0">
               <tr> 
                 <td>
-                  <?php require_once('../include/top_menu.php'); ?>
+                  <?php echo $_SERVER['DOCUMENT_ROOT']; require_once('../include/top_menu.php'); ?>
                 </td>
               </tr>
             </table></td>

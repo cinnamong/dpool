@@ -1,9 +1,9 @@
 <?php
 include "../inc/global.inc";
 
-if(empty($_POST['shop_id'])) error("아이디를 입력하세요.");
+if(empty($_POST[shop_id])) error("아이디를 입력하세요.");
 
-if(empty($_POST['shop_pw'])) error("비밀번호를 입력하세요.");
+if(empty($_POST[shop_pw])) error("비밀번호를 입력하세요.");
 
 $sql = "select * from wiz_shopinfo where shop_id = '$shop_id' and shop_pw = '$shop_pw'";
 //echo $sql;

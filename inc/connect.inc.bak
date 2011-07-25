@@ -1,4 +1,4 @@
-<?php
+<?
 if(strlen($HTTP_COOKIE_VARS["wiz_connect"])==0){
    setcookie("wiz_connect", "true");
 

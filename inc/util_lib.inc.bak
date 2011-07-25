@@ -10,10 +10,10 @@
 	
 	// 문자열 끊기 (이상의 길이일때는 ... 로 표시)
 	function cut_str($msg, $cut_size) {
-		
+		$eng = 0;
 		if($cut_size<=0) return $msg;
 		if(ereg("\[re\]",$msg)) $cut_size=$cut_size+4;
-		for($i=0;$i<$cut_size;$i++) if(ord($msg[$i])>127) $han++; else $eng++;
+		for($i=0;$i < $cut_size;$i++) if(ord($msg[$i])>127) $han++; else $eng++;
 		$cut_size=$cut_size+(int)$han*0.6;
 		$point=1;
 		for ($i=0;$i<strlen($msg);$i++) {

@@ -1,4 +1,4 @@
-<?php
+<?
 
 include "./inc/global.inc"; 		// DB牧池记, 立加磊 颇厩
 include "./inc/connect.inc";		// 立家墨款磐

@@ -87,23 +87,24 @@ function MM_sendSms(){
                 
                 <?php
                 $now_posi = explode("/",$_SERVER['PHP_SELF']);
-                if( $now_posi[3] == "main" )
+                echo $now_posi[3];
+                if( $now_posi[2] == "main" )
                 	include "../inc/main_left.inc";
-                else if($now_posi[3] == "shop" )
+                else if($now_posi[2] == "shop" )
                 	include "../inc/shop_left.inc";
-                else if($now_posi[3] == "design" )
+                else if($now_posi[2] == "design" )
                 	include "../inc/design_left.inc";
-                else if($now_posi[3] == "page" )
+                else if($now_posi[2] == "page" )
                 	include "../inc/page_left.inc";
-                else if($now_posi[3] == "product" )
+                else if($now_posi[2] == "product" )
                 	include "../inc/prd_left.inc";
-                else if($now_posi[3] == "order" )
+                else if($now_posi[2] == "order" )
                 	include "../inc/order_left.inc";
-                else if($now_posi[3] == "member" )
+                else if($now_posi[2] == "member" )
                 	include "../inc/member_left.inc";
-                else if($now_posi[3] == "marketing" )
+                else if($now_posi[2] == "marketing" )
                 	include "../inc/marketing_left.inc";
-                else if($now_posi[3] == "bbs" )
+                else if($now_posi[2] == "bbs" )
                 	include "../inc/bbs_left.inc";
                 ?>
 					 

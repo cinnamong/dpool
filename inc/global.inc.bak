@@ -48,7 +48,7 @@
 	/******************************************************************************
  	* 접속상황 및 이동경로 파악
  	*****************************************************************************/
-	$con_path = $_SERVER['DOCUMENT_ROOT']."connect/".$_SERVER['REMOTE_ADDR'];
+	$con_path = $_SERVER['DOCUMENT_ROOT']."/dmbpool/connect/".$_SERVER['REMOTE_ADDR'];
 	exec("touch $con_path");
 
 
@@ -57,8 +57,8 @@
 	/******************************************************************************
  	* 모든페이지에서 DB접속
  	*****************************************************************************/
-	//$_SERVER['DOCUMENT_ROOT'] == 'C:/wamp/www/dmbpool/';
-	include ($_SERVER['DOCUMENT_ROOT']."dbcon.php");
+	$_SERVER['DOCUMENT_ROOT'] == 'C:/wamp/www/dmbpool/';
+	include ($_SERVER['DOCUMENT_ROOT']."dmbpool/dbcon.php");
 	$connect = @mysql_connect($db_host, $db_user, $db_pass) or error("DB 접속시 에러가 발생했습니다.");
 	@mysql_select_db($db_name, $connect) or error("DB Select 에러가 발생했습니다");
 	

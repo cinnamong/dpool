@@ -7,17 +7,17 @@
           <td width="250" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr> 
                 <td align="right" class="white" style="padding:15 0 0 0">
-<?php
-if($wiz_session['id']) {
+<?
+if($wiz_session[id]) {
 ?>
                   <img src="/img/top_dot.gif" align="absmiddle"><a href="/member/logout.php">LOG OUT</a>
-<?php
+<?
 }
 else {
 ?>
 				<img src="/img/top_dot.gif" align="absmiddle"><a href="/member/login.php">LOG IN</a>
                   &nbsp;<img src="/img/top_dot.gif" align="absmiddle"><a href="/member/join.php">Sign Up </a> 
-<?php
+<?
 }
 ?>
                   &nbsp;<img src="/img/top_dot.gif" align="absmiddle"><a href="/member/my_shop.php">MYPAGE</a> 

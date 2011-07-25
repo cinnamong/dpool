@@ -4,7 +4,6 @@ include "./inc/connect.inc";		// 접소카운터
 include "./inc/util_lib.inc"; 	// 유틸 라이브러리
 include "./inc/shop_info.inc"; 	// 운영정보
 include "./inc/design_info.inc"; // 디자인 정보
-$_SERVER['DOCUMENT_ROOT'] == 'c://wamp/dmbpool/';
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>

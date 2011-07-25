@@ -1,7 +1,7 @@
 <?php
 include ("../inc/global.inc");
 
-if(!empty($wizadmin_session['shop_id'])){
+if(!empty($wizadmin_session[shop_id])){
    
 	$sql = "select * from wiz_shopinfo where shop_id = '$wizadmin_session[shop_id]' and shop_pw = '$wizadmin_session[shop_pw]'";
 	$result = mysql_query($sql) or error("관리자 인증시 에러가 발생하였습니다.");
